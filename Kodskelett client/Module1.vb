@@ -10,7 +10,7 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		oClient.GetChildren(1415422, "C:\Output")
+		oClient.ArchiveSip("C:\Input\Archive.xml")
 
 		Console.WriteLine("Finished the execution")
 		Console.ReadLine()
