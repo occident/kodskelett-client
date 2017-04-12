@@ -10,11 +10,9 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		Dim oResult() As SSA.ArchiveObject = oClient.SearchAipsAsObject(SearchAipObject()) '--- Method located on SearchAips.vb
+		Dim lResult As Long = oClient.CountAips(CountAipsObject()) '--- Method located on SearchAips.vb
 
-		For Each obj In oResult
-			Console.WriteLine("Object ID: " & obj.Id & " / Name: " & obj.DisplayName)
-		Next
+		Console.WriteLine("Total amount of Objects: " & lResult)
 
 		Console.WriteLine("Finished the execution")
 		Console.ReadLine()
