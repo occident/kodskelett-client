@@ -10,7 +10,7 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		oClient.GetAip(1415422, "C:\Output")
+		oClient.GetChildren(1415422, "C:\Output")
 
 		Console.WriteLine("Finished the execution")
 		Console.ReadLine()
