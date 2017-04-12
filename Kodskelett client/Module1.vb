@@ -10,7 +10,14 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		oClient.ArchiveSip("C:\Input\Archive.xml")
+		Dim oFileResponse As SSA.GetFileContentResponse = oClient.GetFileContentAsObject(123456)
+		Dim oFileObject As SSA.File = oFileResponse.File
+
+		Console.WriteLine("The name of the file is:" & oFileObject.DisplayName)
+
+		Dim oFileContent As SSA.Content = oFileObject.Content
+		System.IO.File.WriteAllBytes("C:\" & oFileObject.DisplayName, oFileContent.Data())
+
 
 		Console.WriteLine("Finished the execution")
 		Console.ReadLine()
