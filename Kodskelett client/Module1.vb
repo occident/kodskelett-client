@@ -10,14 +10,11 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		Dim oFileResponse As SSA.GetFileContentResponse = oClient.GetFileContentAsObject(123456)
-		Dim oFileObject As SSA.File = oFileResponse.File
+		Dim oResult() As SSA.ArchiveObject = oClient.SearchAipsAsObject(SearchAipObject()) '--- Method located on SearchAips.vb
 
-		Console.WriteLine("The name of the file is:" & oFileObject.DisplayName)
-
-		Dim oFileContent As SSA.Content = oFileObject.Content
-		System.IO.File.WriteAllBytes("C:\" & oFileObject.DisplayName, oFileContent.Data())
-
+		For Each obj In oResult
+			Console.WriteLine("Object ID: " & obj.Id & " / Name: " & obj.DisplayName)
+		Next
 
 		Console.WriteLine("Finished the execution")
 		Console.ReadLine()
