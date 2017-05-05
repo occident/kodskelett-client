@@ -4,6 +4,7 @@ Module SearchAips
 
 	''' <summary>
 	''' This example will give you all the Aips inside Diarieförda ärenden 2009 – 2013 folder on iipax
+	''' These are the mandatory parameters that need to be included in order for this to work
 	''' </summary>
 	''' <returns></returns>
 	''' <remarks></remarks>
