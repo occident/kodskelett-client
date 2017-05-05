@@ -2,7 +2,8 @@
 
 Module CountAips
 	''' <summary>
-	''' This example will give you 
+	''' This example will give you all the number of Aips inside Stockholms Stad's folder on iipax which include an ObjectType of 248_Ärende_v2
+	''' These are the mandatory parameters that need to be included in order for this to work
 	''' </summary>
 	''' <returns></returns>
 	''' <remarks></remarks>
