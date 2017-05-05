@@ -19,6 +19,12 @@ The repository includes branches with examples of each of the functions.
 
 There are some branches with an advances example, for those methods that can have multiple ways of use them.
 
+## Get started
+
+1. Clone the project
+2. Change to the branch of the method you want to use
+3. Change the Settings parameters
+4. Run the program
 
 ## Created by:
 
