@@ -10,7 +10,7 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		Dim lResult As Long = oClient.CountAips(CountAipsObject()) '--- Method located on SearchAips.vb
+		Dim lResult As Long = oClient.CountAips(CountAipsObject()) '--- Method located on CountAips.vb
 
 		Console.WriteLine("Total amount of Objects: " & lResult)
 
