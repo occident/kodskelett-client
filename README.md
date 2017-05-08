@@ -22,9 +22,10 @@ There are some branches with an advances example, for those methods that can hav
 ## Get started
 
 1. Clone the project
-2. Change to the branch of the method you want to use
-3. Change the Settings parameters
-4. Run the program
+2. Add a reference to the project and include the .dll that was previously compiled using [this repository](https://github.com/occident/kodskelett-library)
+3. Change to the branch of the method you want to use
+4. Change the Settings parameters to your needs following the example code provided.
+5. Run the program
 
 ## Created by:
 
