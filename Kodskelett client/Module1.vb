@@ -10,8 +10,7 @@ Module Module1
 
 		Console.WriteLine("Executing...")
 
-		Dim oFileResponse As SSA.GetFileContentResponse = oClient.GetFileContentAsObject(123456)
-		Dim oFileObject As SSA.File = oFileResponse.File
+		Dim oFileObject As SSA.File = oClient.GetFileContentAsObject(123456)
 
 		Console.WriteLine("The name of the file is:" & oFileObject.DisplayName)
 
