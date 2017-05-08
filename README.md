@@ -1,6 +1,6 @@
 ## Synopsis
 
-This client works with the [Kodskelett library](https://repository.occident.se/index.php/s/1CF4VrHz3sQPoMY) to create a successful SOAP connection with the IIPAX server. This project has been developed and tested using Microsoft Visual Studio Profesional 2013.
+This client works with the [Kodskelett library](https://github.com/occident/kodskelett-library) to create a successful SOAP connection with the IIPAX server. This project has been developed and tested using Microsoft Visual Studio Profesional 2013.
 
 ## Functions
 
